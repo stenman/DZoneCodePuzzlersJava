@@ -1,8 +1,12 @@
 package com.example.dzonecodepuzzlers.main;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Random;
 
-import com.example.dzonecodepuzzlers.puzzles.KPalindrome;
+import com.example.dzonecodepuzzlers.nqueen.NQueensPuzzle;
+import com.example.dzonecodepuzzlers.puzzles.kpalindrome.KPalindrome;
 
 public class Start {
 
@@ -13,32 +17,7 @@ public class Start {
 		// kPalindrome.testKPalindrome();
 
 		// NQueensPuzzle
-		// NQueensPuzzle nQueensPuzzle = new NQueensPuzzle();
-		// nQueensPuzzle.testNQueensPuzzle();
-		
-		
-		nQueen();
-		
+		new NQueensPuzzle();
 	}
-	
-	public static void nQueen(){
-		//Skapa ett bräde (array) på 8x8 rutor. 1-8, a-h
-		String[][] board = new String[8][8];
-		int k = 0;
-		
-		for (int i = 0; i < board.length; i++) {
-			for (int j = 0; j < board.length; j++) {
-				k++;
-				System.out.println("k="+k+" "+board[j]);
-			}
-		}
-		
-		
-		//"placera" ut en drottning på en ruta
-		
-		//räkna ut vilka rutor som nu är lediga/upptagna
-		
-		//repetera
-		
-	}
+
 }

@@ -1,4 +1,4 @@
-package com.example.dzonecodepuzzlers.puzzles;
+package com.example.dzonecodepuzzlers.puzzles.kpalindrome;
 
 //Thursday Code Puzzler:K Palindromes
 //08.29.2013   
